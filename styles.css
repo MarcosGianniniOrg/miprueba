@@ -43,3 +43,38 @@ section p {
     line-height: 1.6;
     text-align: justify; /* Mejora la legibilidad */
 }
+
+/* Contenedor de tarjetas de proyectos */
+.project-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Estilos para cada tarjeta de proyecto */
+.card {
+    background-color: #e9ecef; /* Fondo claro para la tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    padding: 20px;
+    width: 280px; /* Ancho fijo de la tarjeta */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para el efecto de hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de zoom en hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra más intensa en hover */
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #343a40; /* Color del título en la tarjeta */
+}
+
+.card p {
+    color: #6c757d; /* Color gris claro para el texto */
+    font-size: 0.9rem;
+}
