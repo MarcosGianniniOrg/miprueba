@@ -5,67 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio de Marcos Giannini</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            color: #343a40;
-        }
-        header {
-            background: #343a40;
-            color: #ffffff;
-            padding: 40px 0;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        h2 {
-            color: #343a40;
-            margin-top: 30px;
-        }
-        section {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-            background: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        .project {
-            background: #e9ecef;
-            border: 1px solid #ced4da;
-            margin-bottom: 20px;
-            padding: 15px;
-            border-radius: 5px;
-        }
-        .contact-info {
-            margin-top: 20px;
-        }
-        .icon {
-            margin-right: 5px;
-            vertical-align: middle;
-        }
-        footer {
-            text-align: center;
-            padding: 20px 0;
-            background: #343a40;
-            color: #ffffff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS externo -->
 </head>
 <body>
     <header>
@@ -75,42 +15,22 @@
     
     <section>
         <h2>Sobre mí</h2>
-        <p>Soy un apasionado del desarrollo web y actualmente estoy cursando un máster en Front-End en Lemoncode. Me encanta aprender nuevas tecnologías y aplicar mis conocimientos en proyectos prácticos.</p>
+        <p>Soy un apasionado del desarrollo web y actualmente estoy cursando un máster en Front-End en Lemoncode.</p>
         
-        <h2>Proyectos</h2>
-        <div class="project">
-            <h3>Máster en Front-End - Lemoncode</h3>
-            <p>En este máster, estoy aprendiendo una variedad de tecnologías y herramientas que incluyen:</p>
-            <ul>
-                <li>HTML5 y CSS3</li>
-                <li>JavaScript (ES6+)</li>
-                <li>Frameworks como React</li>
-                <li>Git y GitHub para control de versiones</li>
-                <li>Responsive Design y accesibilidad web</li>
-                <li>Pruebas unitarias y de integración</li>
-                <li>Despliegue de aplicaciones web</li>
-            </ul>
-            <p>Puedes encontrar más información sobre el máster en su web: <a href="https://www.lemoncode.net/" target="_blank">Lemoncode</a>.</p>
-        </div>
-        <!-- Agrega más proyectos aquí -->
-        
-        <h2>Habilidades</h2>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3 y preprocesadores como SASS</li>
-            <li>JavaScript (ES6+)</li>
-            <li>React y sus ecosistemas</li>
-            <li>Git y GitHub</li>
-            <li>Node.js y Express</li>
-            <li>API REST y consumo de servicios web</li>
-            <!-- Agrega más habilidades aquí -->
-        </ul>
-
-        <h2>Contacto</h2>
-        <div class="contact-info">
-            <p>📧 Correo: <a href="mailto:marcogfa@gmail.com">marcogfa@gmail.com</a></p>
-            <p>🌐 LinkedIn: <a href="https://www.linkedin.com/in/marcosgiannini85/" target="_blank">mi perfil</a></p>
-            <p>📞 WhatsApp: <a href="https://wa.me/34673598188" target="_blank">673598188</a></p>
+        <h2>Proyectos</h2> <!-- Sección de proyectos con tarjetas interactivas -->
+        <div class="project-container">
+            <div class="card">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto. Explicación de los objetivos y tecnologías utilizadas.</p>
+            </div>
+            <div class="card">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto. Explicación de los objetivos y tecnologías utilizadas.</p>
+            </div>
+            <div class="card">
+                <h3>Proyecto 3</h3>
+                <p>Descripción breve del proyecto. Explicación de los objetivos y tecnologías utilizadas.</p>
+            </div>
         </div>
     </section>
 
