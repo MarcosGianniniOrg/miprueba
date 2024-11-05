@@ -44,23 +44,37 @@ section p {
     text-align: justify;
 }
 
-/* Contenedor de tarjetas de proyectos */
+/* Contenedor de tarjetas con scroll horizontal */
 .project-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
+    display: flex; /* Muestra las tarjetas en una fila */
+    gap: 20px; /* Espacio entre las tarjetas */
+    overflow-x: auto; /* Activa el scroll horizontal */
+    padding: 10px 0; /* Espacio alrededor del contenedor */
+    scroll-snap-type: x mandatory; /* Permite que el scroll "salte" a cada tarjeta */
 }
 
-/* Estilos para cada tarjeta de proyecto */
+.project-container::-webkit-scrollbar {
+    height: 8px; /* Ajusta el tamaño del scroll en horizontal */
+}
+
+.project-container::-webkit-scrollbar-thumb {
+    background-color: #2a5298; /* Color del "pulgar" del scroll */
+    border-radius: 4px;
+}
+
+.project-container::-webkit-scrollbar-track {
+    background-color: #e9ecef; /* Color de fondo del scroll */
+}
+
+/* Estilos para cada tarjeta individual */
 .card {
     background-color: #e9ecef;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    width: 280px;
+    min-width: 250px; /* Ancho mínimo de cada tarjeta para que se alineen en fila */
     text-align: center;
+    scroll-snap-align: start; /* Cada tarjeta se alinea al principio en el scroll */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
