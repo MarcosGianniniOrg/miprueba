@@ -1,24 +1,20 @@
 /* --- Estilos generales para tipografía y alineación --- */
 body {
-    font-family: Arial, sans-serif; /* Elegimos una fuente fácil de leer */
+    font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333; /* Color de texto oscuro para mejor contraste */
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9; /* Fondo suave para reducir la fatiga visual */
+    background-color: #f4f4f9;
 }
 
 /* --- Estilo del encabezado --- */
 header {
     text-align: center;
     padding: 20px;
-    background-color: #6200ea; /* Color de fondo del encabezado */
-    color: #fff; /* Color de texto blanco para contraste */
+    background-color: #6200ea;
+    color: #fff;
     margin-bottom: 20px;
-}
-
-h1, h2 {
-    color: #333; /* Encabezados oscuros para un mejor contraste */
 }
 
 h1 {
@@ -28,6 +24,7 @@ h1 {
 
 h2 {
     font-size: 1.8em;
+    color: #333;
     margin-top: 0;
 }
 
@@ -53,25 +50,26 @@ h2 {
 
 /* --- Estilos de las tarjetas individuales --- */
 .project-card {
-    background-color: #fff; /* Fondo blanco para resaltar sobre el fondo general */
-    border: 1px solid #ddd; /* Borde suave para delimitar la tarjeta */
-    border-radius: 10px; /* Bordes redondeados para un look moderno */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra más intensa */
-    width: 280px; /* Ancho fijo para consistencia entre tarjetas */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
     padding: 20px;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave en hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px; /* Añadir margen para separarlas en móviles */
 }
 
 /* --- Estilo para el hover de las tarjetas --- */
 .project-card:hover {
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño en hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa en hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* --- Enlaces de los proyectos --- */
 .project-card a {
-    color: #6200ea; /* Color llamativo para enlaces */
+    color: #6200ea;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;
