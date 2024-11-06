@@ -6,67 +6,87 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f9; /* Fondo suave para reducir la fatiga visual */
-  }
-  
-  /* --- Estilo del encabezado --- */
-  h1, h2 {
+}
+
+/* --- Estilo del encabezado --- */
+header {
     text-align: center;
-    color: #333; /* Encabezados oscuros para un mejor contraste */
-    margin-top: 20px;
-  }
-  
-  /* --- Sección "Sobre mí" --- */
-  .about {
-    max-width: 800px;
-    margin: 0 auto;
     padding: 20px;
+    background-color: #6200ea; /* Color de fondo del encabezado */
+    color: #fff; /* Color de texto blanco para contraste */
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333; /* Encabezados oscuros para un mejor contraste */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+/* --- Sección "Sobre mí" --- */
+.about {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-  }
-  
-  /* --- Contenedor de las tarjetas de proyecto --- */
-  .projects-container {
+}
+
+/* --- Contenedor de las tarjetas de proyecto --- */
+.projects-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     padding: 20px;
-  }
-  
-  /* --- Estilos de las tarjetas individuales --- */
-  .project-card {
+}
+
+/* --- Estilos de las tarjetas individuales --- */
+.project-card {
     background-color: #fff; /* Fondo blanco para resaltar sobre el fondo general */
     border: 1px solid #ddd; /* Borde suave para delimitar la tarjeta */
-    border-radius: 8px; /* Bordes redondeados para un look moderno */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto de elevación */
-    width: 250px; /* Ancho fijo para consistencia entre tarjetas */
-    padding: 15px;
+    border-radius: 10px; /* Bordes redondeados para un look moderno */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra más intensa */
+    width: 280px; /* Ancho fijo para consistencia entre tarjetas */
+    padding: 20px;
     text-align: center;
-    transition: transform 0.3s ease; /* Animación de escala en hover */
-  }
-  
-  /* --- Estilo para el hover de las tarjetas --- */
-  .project-card:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave en hover */
+}
+
+/* --- Estilo para el hover de las tarjetas --- */
+.project-card:hover {
     transform: scale(1.05); /* Aumenta ligeramente el tamaño en hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más intensa en hover */
-  }
-  
-  /* --- Enlaces de los proyectos --- */
-  .project-card a {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa en hover */
+}
+
+/* --- Enlaces de los proyectos --- */
+.project-card a {
     color: #6200ea; /* Color llamativo para enlaces */
     text-decoration: none;
     font-weight: bold;
-  }
-  
-  .project-card a:hover {
+    font-size: 1.1em;
+}
+
+.project-card a:hover {
     text-decoration: underline;
-  }
-  
-  /* --- Pie de página --- */
-  footer {
+}
+
+/* --- Pie de página --- */
+footer {
     text-align: center;
     padding: 20px;
     background-color: #333;
     color: #fff;
     font-size: 14px;
-  }
-  
+    margin-top: 20px;
+}
