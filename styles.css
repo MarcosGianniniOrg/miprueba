@@ -44,14 +44,15 @@ h2 {
     padding: 20px;
     display: flex;
     justify-content: center;
+    scroll-behavior: smooth; /* Scroll suave */
 }
 
 .projects-container {
     display: flex;
     gap: 20px;
     padding: 10px;
-    width: 750px; /* Ajustamos el ancho para que solo se vean 3 tarjetas */
-    scroll-behavior: smooth; /* Scroll suave */
+    width: auto; /* Ancho adaptable */
+    scroll-snap-type: x mandatory; /* Ayuda con el desplazamiento en "pasos" */
 }
 
 /* Ocultar la barra de scroll en algunos navegadores */
@@ -65,11 +66,13 @@ h2 {
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 250px;
+    width: 250px; /* Mantiene el tamaño de cada tarjeta */
+    flex: 0 0 250px; /* Asegura que cada tarjeta tenga ancho fijo */
     height: 200px; /* Altura fija para evitar alargamiento */
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    scroll-snap-align: start; /* Ayuda a alinear la tarjeta en el scroll */
 }
 
 /* Efecto de escala al pasar el ratón */
