@@ -37,16 +37,25 @@ h2 {
     text-align: center;
 }
 
-/* --- Contenedor de las tarjetas de proyecto --- */
-.projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+/* --- Contenedor general de la sección de proyectos --- */
+.projects-container-wrapper {
+    overflow-x: auto; /* Permite el scroll horizontal */
     padding: 20px;
 }
 
-/* --- Estilos de las tarjetas de proyecto --- */
+.projects-container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    scroll-behavior: smooth; /* Scroll suave */
+}
+
+/* Ocultar la barra de scroll en algunos navegadores */
+.projects-container-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* --- Estilos de las tarjetas --- */
 .project-card {
     background-color: #ffffff;
     border: 1px solid #ddd;
@@ -56,23 +65,12 @@ h2 {
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: 10px;
 }
 
+/* Efecto de escala al pasar el ratón */
 .project-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-/* --- Enlaces dentro de tarjetas --- */
-.project-card a {
-    color: #6200ea;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.project-card a:hover {
-    text-decoration: underline;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 /* --- Pie de página --- */
