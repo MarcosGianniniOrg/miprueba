@@ -1,34 +1,47 @@
-// Selecciona el contenedor de las tarjetas
+// Selección del contenedor y configuración para el "carrusel"
 const container = document.querySelector('.projects-container-wrapper');
+const projectCards = document.querySelectorAll('.project-card');
+let currentIndex = 0;
 
-let isDown = false;
-let startX;
-let scrollLeft;
+// Calcula el ancho de las tarjetas y la separación
+const cardWidth = projectCards[0].offsetWidth + 20; // Incluye el espacio entre tarjetas
 
-// Evento al presionar el ratón
-container.addEventListener('mousedown', (e) => {
-    isDown = true;
-    container.classList.add('active'); // Añadir clase para mostrar el cursor de agarre
-    startX = e.pageX - container.offsetLeft;
-    scrollLeft = container.scrollLeft;
-});
+// Función para avanzar a la siguiente posición
+function scrollNext() {
+    currentIndex += 3;
+    if (currentIndex >= projectCards.length) {
+        currentIndex = 0; // Reinicia al principio si llega al final
+    }
+    container.scrollTo({
+        left: cardWidth * currentIndex,
+        behavior: 'smooth'
+    });
+}
 
-// Evento al soltar el ratón
-container.addEventListener('mouseleave', () => {
-    isDown = false;
-    container.classList.remove('active'); // Quitar clase para ocultar el cursor de agarre
-});
+// Función para retroceder a la posición anterior
+function scrollPrev() {
+    currentIndex -= 3;
+    if (currentIndex < 0) {
+        currentIndex = projectCards.length - 3; // Va al final si está al principio
+    }
+    container.scrollTo({
+        left: cardWidth * currentIndex,
+        behavior: 'smooth'
+    });
+}
 
-container.addEventListener('mouseup', () => {
-    isDown = false;
-    container.classList.remove('active'); // Quitar clase para ocultar el cursor de agarre
-});
+// Añade botones de navegación para controlar el carrusel
+const nextButton = document.createElement('button');
+nextButton.innerText = 'Siguiente';
+nextButton.style.position = 'absolute';
+nextButton.style.right = '20px';
+nextButton.onclick = scrollNext;
 
-// Evento para mover el scroll
-container.addEventListener('mousemove', (e) => {
-    if (!isDown) return; // Detiene la función si no se está arrastrando
-    e.preventDefault();
-    const x = e.pageX - container.offsetLeft;
-    const walk = (x - startX) * 2; // Ajusta la velocidad de desplazamiento
-    container.scrollLeft = scrollLeft - walk;
-});
+const prevButton = document.createElement('button');
+prevButton.innerText = 'Anterior';
+prevButton.style.position = 'absolute';
+prevButton.style.left = '20px';
+prevButton.onclick = scrollPrev;
+
+container.parentElement.appendChild(nextButton);
+container.parentElement.appendChild(prevButton);

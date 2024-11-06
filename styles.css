@@ -1,46 +1,6 @@
-/* --- Estilos generales para tipografía y alineación --- */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-}
-
-/* --- Encabezado Principal --- */
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #6200ea;
-    color: white;
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-}
-
-h2 {
-    font-size: 1.8em;
-    color: #333;
-}
-
-/* --- Sección "Sobre mí" --- */
-.about {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    min-height: 200px;
-}
-
 /* --- Contenedor general de la sección de proyectos --- */
 .projects-container-wrapper {
-    overflow-x: auto; /* Permite el scroll horizontal */
+    overflow-x: hidden; /* Oculta el scroll visible */
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -51,13 +11,8 @@ h2 {
     display: flex;
     gap: 20px;
     padding: 10px;
-    width: auto; /* Ancho adaptable */
+    width: 750px; /* Ajustamos el ancho total para que se adapten 3 tarjetas visibles */
     scroll-snap-type: x mandatory; /* Ayuda con el desplazamiento en "pasos" */
-}
-
-/* Ocultar la barra de scroll en algunos navegadores */
-.projects-container-wrapper::-webkit-scrollbar {
-    display: none;
 }
 
 /* --- Estilos de las tarjetas --- */
@@ -73,31 +28,4 @@ h2 {
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     scroll-snap-align: start; /* Ayuda a alinear la tarjeta en el scroll */
-}
-
-/* Efecto de escala al pasar el ratón */
-.project-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
-/* Cursor de agarre */
-.projects-container-wrapper.active {
-    cursor: grabbing;
-    cursor: -webkit-grabbing;
-}
-
-.projects-container-wrapper {
-    cursor: grab;
-    cursor: -webkit-grab;
-}
-
-/* --- Pie de página --- */
-footer {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    font-size: 0.9em;
-    margin-top: 20px;
 }
