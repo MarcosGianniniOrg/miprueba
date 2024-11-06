@@ -50,7 +50,7 @@ h2 {
     display: flex;
     gap: 20px;
     padding: 10px;
-    min-width: 1000px; /* Forzamos el ancho para permitir el scroll en pantallas grandes */
+    width: 750px; /* Ajustamos el ancho para que solo se vean 3 tarjetas */
     scroll-behavior: smooth; /* Scroll suave */
 }
 
