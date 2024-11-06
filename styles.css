@@ -50,8 +50,7 @@ h2 {
     display: flex;
     gap: 20px;
     padding: 10px;
-    min-width: 900px; /* Forzamos el ancho para permitir el scroll en pantallas grandes */
-    max-width: 100%; /* Limita el ancho en pantallas pequeñas */
+    min-width: 1000px; /* Forzamos el ancho para permitir el scroll en pantallas grandes */
     scroll-behavior: smooth; /* Scroll suave */
 }
 
