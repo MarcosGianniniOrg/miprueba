@@ -50,7 +50,7 @@ h2 {
     display: flex;
     gap: 20px;
     padding: 10px;
-    min-width: 1200px; /* Ancho mínimo ajustado para forzar el scroll horizontal */
+    min-width: 1500px; /* Ancho ajustado para forzar el scroll horizontal */
     scroll-behavior: smooth; /* Scroll suave */
 }
 
@@ -81,6 +81,11 @@ h2 {
 .projects-container-wrapper.active {
     cursor: grabbing;
     cursor: -webkit-grabbing;
+}
+
+.projects-container-wrapper {
+    cursor: grab;
+    cursor: -webkit-grab;
 }
 
 /* --- Pie de página --- */
