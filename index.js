@@ -1,47 +1,28 @@
-// Selección del contenedor y configuración para el "carrusel"
-const container = document.querySelector('.projects-container-wrapper');
-const projectCards = document.querySelectorAll('.project-card');
-let currentIndex = 0;
+const prevButton = document.querySelector(".carousel-button.prev");
+const nextButton = document.querySelector(".carousel-button.next");
+const projectsContainer = document.querySelector(".projects-container");
 
-// Calcula el ancho de las tarjetas y la separación
-const cardWidth = projectCards[0].offsetWidth + 20; // Incluye el espacio entre tarjetas
+let scrollAmount = 0;
+const cardWidth = 250 + 20; // Ancho de la tarjeta + margen
 
-// Función para avanzar a la siguiente posición
-function scrollNext() {
-    currentIndex += 3;
-    if (currentIndex >= projectCards.length) {
-        currentIndex = 0; // Reinicia al principio si llega al final
+prevButton.addEventListener("click", () => {
+    scrollAmount -= cardWidth;
+    if (scrollAmount < 0) {
+        scrollAmount = 0;
     }
-    container.scrollTo({
-        left: cardWidth * currentIndex,
-        behavior: 'smooth'
+    projectsContainer.scrollTo({
+        left: scrollAmount,
+        behavior: "smooth"
     });
-}
+});
 
-// Función para retroceder a la posición anterior
-function scrollPrev() {
-    currentIndex -= 3;
-    if (currentIndex < 0) {
-        currentIndex = projectCards.length - 3; // Va al final si está al principio
+nextButton.addEventListener("click", () => {
+    scrollAmount += cardWidth;
+    if (scrollAmount > projectsContainer.scrollWidth - projectsContainer.clientWidth) {
+        scrollAmount = projectsContainer.scrollWidth - projectsContainer.clientWidth;
     }
-    container.scrollTo({
-        left: cardWidth * currentIndex,
-        behavior: 'smooth'
+    projectsContainer.scrollTo({
+        left: scrollAmount,
+        behavior: "smooth"
     });
-}
-
-// Añade botones de navegación para controlar el carrusel
-const nextButton = document.createElement('button');
-nextButton.innerText = 'Siguiente';
-nextButton.style.position = 'absolute';
-nextButton.style.right = '20px';
-nextButton.onclick = scrollNext;
-
-const prevButton = document.createElement('button');
-prevButton.innerText = 'Anterior';
-prevButton.style.position = 'absolute';
-prevButton.style.left = '20px';
-prevButton.onclick = scrollPrev;
-
-container.parentElement.appendChild(nextButton);
-container.parentElement.appendChild(prevButton);
+});

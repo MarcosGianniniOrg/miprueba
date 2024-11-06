@@ -1,111 +1,87 @@
-/* --- Estilos generales para tipografía y alineación --- */
+/* --- Estilos Generales --- */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     color: #333;
-    background-color: #f4f4f9;
+    background-color: #f7f7f7;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
-/* --- Encabezado Principal --- */
 header {
-    text-align: center;
-    padding: 20px;
     background-color: #6200ea;
     color: white;
+    padding: 20px;
 }
 
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-}
-
-h2 {
-    font-size: 1.8em;
-    color: #333;
-}
-
-/* --- Sección "Sobre mí" --- */
 .about {
-    max-width: 800px;
+    max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    min-height: 200px;
 }
 
-/* --- Contenedor general de la sección de proyectos --- */
-.projects-container-wrapper {
-    overflow-x: auto; /* Permite scroll horizontal en todas las resoluciones */
-    padding: 20px;
+/* --- Contenedor del Carrusel --- */
+.carousel-container {
     display: flex;
+    align-items: center;
     justify-content: center;
-    scroll-behavior: smooth; /* Scroll suave */
-    max-width: 800px; /* Limita el contenedor a un ancho fijo para mostrar solo 3 tarjetas */
-    margin: 0 auto; /* Centra el contenedor */
+    gap: 10px;
+    margin-top: 30px;
 }
 
-/* --- Contenedor de tarjetas --- */
+.projects-container-wrapper {
+    overflow: hidden;
+    width: 800px; /* Ajuste para mostrar 3 tarjetas */
+    padding: 20px 0;
+}
+
+.carousel-button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button:hover {
+    background-color: #3700b3;
+}
+
+/* --- Contenedor de Tarjetas de Proyectos --- */
 .projects-container {
     display: flex;
     gap: 20px;
-    padding: 10px;
-    width: max-content; /* Asegura que solo ocupe el espacio necesario para las tarjetas */
-    scroll-snap-type: x mandatory; /* Ayuda con el desplazamiento en "pasos" */
+    width: max-content;
+    scroll-snap-type: x mandatory;
 }
 
-/* Asegura que el scroll esté visible en todas las plataformas */
-.projects-container-wrapper::-webkit-scrollbar {
-    height: 8px;
-}
-
-.projects-container-wrapper::-webkit-scrollbar-thumb {
-    background-color: #6200ea;
-    border-radius: 4px;
-}
-
-/* --- Estilos de las tarjetas --- */
 .project-card {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 250px; /* Mantiene el tamaño de cada tarjeta */
-    flex: 0 0 250px; /* Asegura que cada tarjeta tenga ancho fijo */
-    height: 200px; /* Altura fija para evitar alargamiento */
+    width: 250px;
+    flex: 0 0 250px;
     padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    scroll-snap-align: start; /* Ayuda a alinear la tarjeta en el scroll */
+    transition: transform 0.3s;
 }
 
-/* Efecto de escala al pasar el ratón */
 .project-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* Cursor de agarre */
-.projects-container-wrapper.active {
-    cursor: grabbing;
-    cursor: -webkit-grabbing;
-}
-
-.projects-container-wrapper {
-    cursor: grab;
-    cursor: -webkit-grab;
-}
-
-/* --- Pie de página --- */
 footer {
-    text-align: center;
     background-color: #333;
-    color: white;
-    padding: 20px;
-    font-size: 0.9em;
-    margin-top: 20px;
+    color: #fff;
+    padding: 10px;
 }
