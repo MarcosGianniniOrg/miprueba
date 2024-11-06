@@ -50,7 +50,7 @@ h2 {
     display: flex;
     gap: 20px;
     padding: 10px;
-    width: 150%; /* Ancho ajustado para forzar el scroll horizontal */
+    min-width: 1200px; /* Ancho mínimo ajustado para forzar el scroll horizontal */
     scroll-behavior: smooth; /* Scroll suave */
 }
 
@@ -75,6 +75,12 @@ h2 {
 .project-card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Cursor de agarre */
+.projects-container-wrapper.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
 }
 
 /* --- Pie de página --- */

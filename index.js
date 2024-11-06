@@ -8,7 +8,7 @@ let scrollLeft;
 // Evento al presionar el ratón
 container.addEventListener('mousedown', (e) => {
     isDown = true;
-    container.classList.add('active');
+    container.classList.add('active'); // Añadir clase para mostrar el cursor de agarre
     startX = e.pageX - container.offsetLeft;
     scrollLeft = container.scrollLeft;
 });
@@ -16,12 +16,12 @@ container.addEventListener('mousedown', (e) => {
 // Evento al soltar el ratón
 container.addEventListener('mouseleave', () => {
     isDown = false;
-    container.classList.remove('active');
+    container.classList.remove('active'); // Quitar clase para ocultar el cursor de agarre
 });
 
 container.addEventListener('mouseup', () => {
     isDown = false;
-    container.classList.remove('active');
+    container.classList.remove('active'); // Quitar clase para ocultar el cursor de agarre
 });
 
 // Evento para mover el scroll
