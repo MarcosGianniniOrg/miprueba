@@ -1,62 +1,77 @@
-/* --- Contenedor general de la sección de proyectos --- */
-.projects-container-wrapper {
-    overflow-x: hidden; /* Oculta el scroll visual, pero permite el scroll con botones */
-    display: flex;
-    justify-content: center;
-    scroll-behavior: smooth;
-    max-width: 1000px; /* Ajuste para mostrar solo 3 tarjetas completas */
-    margin: 0 auto;
-    position: relative;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+
+header {
+    text-align: center;
+    background-color: #6a0dad;
+    color: white;
     padding: 20px 0;
 }
 
-/* --- Contenedor de tarjetas --- */
+section {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects-container-wrapper {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
 .projects-container {
     display: flex;
     gap: 20px;
     padding: 10px;
-    cursor: grab; /* Cursor de mano para indicar que se puede agarrar */
-    scroll-snap-type: x mandatory; /* Ayuda con el desplazamiento */
-    overflow-x: auto; /* Permite scroll con arrastre */
-    width: 100%;
+    max-width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 }
 
-/* Estilos para las tarjetas */
 .project-card {
-    min-width: 300px;
-    padding: 20px;
-    background-color: #fff;
+    flex: 0 0 auto;
+    width: 300px;
+    height: 150px;
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-/* Botones de navegación */
-.carousel-button {
-    position: absolute;
-    top: 50%; /* Centra verticalmente */
-    transform: translateY(-50%); /* Ajusta el centro vertical */
-    background-color: purple;
-    border: none;
-    border-radius: 50%;
-    color: white;
-    width: 40px;
-    height: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
+    scroll-snap-align: center;
+}
+
+.carousel-button {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
-    z-index: 2;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .carousel-button.prev {
-    left: -20px; /* Ajusta la posición para que quede antes del contenedor */
+    left: 20px;
 }
 
 .carousel-button.next {
-    right: -20px; /* Ajusta la posición para que quede después del contenedor */
-}
-
-.carousel-button:hover {
-    background-color: #6a0dad;
+    right: 20px;
 }
