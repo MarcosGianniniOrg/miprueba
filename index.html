@@ -7,24 +7,27 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Encabezado Principal -->
     <header>
         <h1>Marcos Giannini</h1>
         <p>Desarrollador Front-End en formación</p>
     </header>
 
-    <!-- Sección "Sobre mí" -->
     <section class="about">
         <h2>Sobre mí</h2>
-        <p>Soy <strong>Marcos Giannini</strong>, un <strong>Desarrollador Front-End apasionado</strong> por crear experiencias de usuario atractivas y funcionales. Actualmente, estoy en constante aprendizaje en el máster de Front-End en Lemoncode, donde refuerzo mis conocimientos en tecnologías modernas.</p>
-        <p>Me especializo en <strong>JavaScript moderno</strong> y <strong>React</strong>, con un enfoque en el diseño accesible, la usabilidad y el rendimiento. Mi objetivo es desarrollar interfaces que no solo sean visualmente impactantes, sino también accesibles y fáciles de usar.</p>
+        <p>
+            Soy <strong>Marcos Giannini</strong>, un <strong>Desarrollador Front-End apasionado</strong> por crear experiencias de usuario atractivas y funcionales.
+            Actualmente, estoy en constante aprendizaje en el máster de Front-End en Lemoncode, donde refuerzo mis conocimientos en tecnologías modernas.
+        </p>
+        <p>
+            Me especializo en <strong>JavaScript moderno</strong> y <strong>React</strong>, con un enfoque en el diseño accesible, la usabilidad y el rendimiento. Mi objetivo es desarrollar
+            interfaces que no solo sean visualmente impactantes, sino también accesibles y fáciles de usar.
+        </p>
         <em>Explora mis proyectos y conoce mi trabajo en detalle.</em>
     </section>
 
-    <!-- Sección de Proyectos -->
     <section class="projects-section">
+        <button class="carousel-button prev">←</button>
         <div class="projects-container-wrapper">
-            <button class="scroll-button left" onclick="scrollProjects('left')">&#x21D0;</button>
             <div class="projects-container">
                 <div class="project-card">Proyecto 1: Portafolio</div>
                 <div class="project-card">Proyecto 2</div>
@@ -33,15 +36,13 @@
                 <div class="project-card">Proyecto 5</div>
                 <div class="project-card">Proyecto 6</div>
             </div>
-            <button class="scroll-button right" onclick="scrollProjects('right')">&#x21D2;</button>
         </div>
+        <button class="carousel-button next">→</button>
     </section>
 
-    <!-- Pie de página -->
     <footer>
-        <p>&copy; 2024 Marcos Giannini. Todos los derechos reservados.</p>
+        <p>© 2024 Marcos Giannini. Todos los derechos reservados.</p>
     </footer>
-
     <script src="index.js"></script>
 </body>
 </html>
