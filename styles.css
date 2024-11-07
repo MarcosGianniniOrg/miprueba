@@ -22,20 +22,28 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.projects-container-wrapper {
+.carousel-container {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.projects-container-wrapper {
+    flex: 1;
     overflow-x: auto;
-    padding: 20px 0;
+    padding: 10px;
 }
 
 .projects-container {
     display: flex;
     gap: 20px;
+    scroll-snap-type: x mandatory;
     padding: 10px;
     max-width: 100%;
     overflow-x: scroll;
-    scroll-snap-type: x mandatory;
 }
 
 .project-card {
@@ -52,9 +60,6 @@ section {
 }
 
 .carousel-button {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
     background-color: #6a0dad;
     color: white;
     border: none;
@@ -62,16 +67,15 @@ section {
     width: 40px;
     height: 40px;
     cursor: pointer;
-    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .carousel-button.prev {
-    left: 20px;
+    margin-right: 10px;
 }
 
 .carousel-button.next {
-    right: 20px;
+    margin-left: 10px;
 }
