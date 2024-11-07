@@ -79,3 +79,11 @@ section {
 .carousel-button.next {
     margin-left: 10px;
 }
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px; /* Reducir el espacio */
+    font-size: 0.9rem; /* Hacer más pequeño el texto */
+    background-color: #333; /* Opcional: cambia el color de fondo */
+    color: #fff; /* Opcional: cambia el color del texto */
+}
