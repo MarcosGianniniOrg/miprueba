@@ -1,13 +1,13 @@
 const TarjetaHotel = (hotel) => {
   return (
-    <div class="card">
-      <div class="card-header">{hotel.nombre}</div>
-      <div class="card-body">
+    <div className="card">
+      <div className="card-header">{hotel.nombre}</div>
+      <div className="card-body">
         <p>Descripción del hotel {hotel.id}</p>
       </div>
-      <div class="card-actions">
-        <button class="action-button">Acción 1</button>
-        <button class="action-button">Acción 2</button>
+      <div className="card-actions">
+        <button className="action-button">Acción 1</button>
+        <button className="action-button">Acción 2</button>
       </div>
     </div>
   );
