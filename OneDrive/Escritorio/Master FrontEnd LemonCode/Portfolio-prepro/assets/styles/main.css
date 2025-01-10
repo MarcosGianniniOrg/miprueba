@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #3498db;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: #2c3e50;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  background-color: #ecf0f1;
+  padding: 1rem 2rem;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav .logo a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #3498db;
+  text-decoration: none;
+}
+.header nav .logo a:hover {
+  text-decoration: underline;
+}
+.header nav .nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+.header nav .nav-links a {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #2c3e50;
+  text-decoration: none;
+}
+.header nav .nav-links a:hover {
+  color: #3498db;
+}
+
+@media (max-width: 768px) {
+  .header nav {
+    flex-direction: column;
+  }
+  .header nav .nav-links {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .header nav {
+    padding: 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,159 @@
+@use "../utils/_variables" as variables;
+@use "../utils/_mixins" as mixins;
+
+#projects {
+  padding: 4rem 1rem; // Top and bottom spacing
+  background: variables.$hero-gradient; // Elegant gradient background
+
+  h2 {
+    text-align: center;
+    font-size: clamp(1.5rem, 4vw, 2rem); // Adaptive size
+    margin-bottom: 2.5rem;
+    color: variables.$primary-color;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .projects-container {
+    display: grid; // Grid layout
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); // Responsive columns
+    gap: 2rem; // Space between cards
+    justify-items: center; // Center cards
+    max-width: 1200px; // Max container width
+    margin: 0 auto; // Center container horizontally
+    padding: 2rem 1rem; // Internal spacing
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: variables.$background-color; // Highlight background
+    @include mixins.box-shadow;
+    border-radius: variables.$border-radius;
+    padding: 1.5rem; // Internal spacing
+    max-width: 100%;
+    overflow: hidden;
+
+    img {
+      max-width: 100%; // Responsive images
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      color: variables.$primary-color;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: variables.$text-color;
+    }
+
+    .project-links {
+      display: flex;
+      gap: 1rem;
+
+      a {
+        text-decoration: none;
+        padding: 0.75rem 1.5rem;
+        background-color: variables.$primary-color;
+        color: variables.$text-light-color;
+        border-radius: variables.$border-radius;
+        font-size: 1rem;
+        @include mixins.transition;
+
+        &:hover {
+          background-color: variables.$primary-color-darker;
+        }
+      }
+    }
+  }
+
+  .filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; // Spacing between buttons
+    margin-bottom: 2rem; // Space with project section
+
+    .filter-btn {
+      padding: 0.75rem 1.5rem; // Button internal spacing
+      font-size: 1rem;
+      font-weight: 600; // Highlight text
+      color: variables.$text-color;
+      background-color: variables.$background-color;
+      border: 1px solid variables.$primary-color;
+      border-radius: variables.$border-radius;
+      cursor: pointer;
+      @include mixins.transition;
+
+      &:hover {
+        background-color: variables.$primary-color;
+        color: variables.$text-light-color;
+        transform: scale(1.05); // Smooth zoom effect
+      }
+
+      &.active {
+        background-color: variables.$primary-color;
+        color: variables.$text-light-color;
+        border-color: variables.$primary-color-darker;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Shadow effect
+      }
+    }
+  }
+
+  // Responsive adjustments
+  @include mixins.respond-to(md) {
+    .projects-container {
+      padding: 1.5rem;
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      padding: 1.25rem;
+      h3 {
+        font-size: 1.4rem;
+      }
+      p {
+        font-size: 0.95rem;
+      }
+    }
+  }
+
+  @include mixins.respond-to(sm) {
+    .projects-container {
+      padding: 1.25rem;
+      gap: 1.25rem;
+    }
+
+    .project-card {
+      padding: 1rem;
+      h3 {
+        font-size: 1.3rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  @include mixins.respond-to(xs) {
+    .projects-container {
+      padding: 1rem;
+      gap: 1rem;
+    }
+
+    .project-card {
+      padding: 1rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+}

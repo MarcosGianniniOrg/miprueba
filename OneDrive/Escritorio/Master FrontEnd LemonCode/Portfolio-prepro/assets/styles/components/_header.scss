@@ -1,0 +1,61 @@
+// Import necessary files
+@use '../base/variables' as vars;
+@use '../base/mixins' as mixins;
+
+// Header styles
+.header {
+  background-color: vars.$background-color;
+  padding: 1rem 2rem;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo a {
+      font-family: vars.$font-primary;
+      font-size: 1.5rem;
+      color: vars.$primary-color;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+
+      a {
+        font-family: vars.$font-secondary;
+        font-size: 1rem;
+        color: vars.$text-color;
+        text-decoration: none;
+
+        &:hover {
+          color: vars.$primary-color;
+        }
+      }
+    }
+  }
+}
+
+// Responsive styles
+@include mixins.respond-to(tablet) {
+  .header {
+    nav {
+      flex-direction: column;
+      .nav-links {
+        display: none; // Hidden in tablet for hamburger menu
+      }
+    }
+  }
+}
+
+@include mixins.respond-to(mobile) {
+  .header {
+    nav {
+      padding: 0.5rem;
+    }
+  }
+}

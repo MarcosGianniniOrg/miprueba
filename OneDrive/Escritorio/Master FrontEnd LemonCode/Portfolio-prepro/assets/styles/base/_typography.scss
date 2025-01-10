@@ -1,0 +1,24 @@
+@use './variables' as vars;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: vars.$font-primary;
+  color: vars.$primary-color;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-family: vars.$font-secondary;
+  color: vars.$text-color;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+a {
+  color: vars.$primary-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,20 @@
+// === Main SCSS Entry Point === //
+// This file imports and organizes all SCSS partials for the project.
+
+// ---- Base Styles ---- //
+// Reset and global variables
+@use './base/reset'; // Normalizes browser styles
+@use './base/variables' as vars; // Centralized design tokens
+@use './base/mixins'; // Reusable mixins for responsive design and layout
+@use './base/typography'; // Global typography rules
+
+// ---- Components ---- //
+// Import SCSS for individual UI components
+@use './components/header';
+
+// Temporarily commented components to avoid compilation errors
+// @use './components/about';
+// @use './components/contact';
+// @use './components/footer';
+// @use './components/hero';
+// @use './components/projects';

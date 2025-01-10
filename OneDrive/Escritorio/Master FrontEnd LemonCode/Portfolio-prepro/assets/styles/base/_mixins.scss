@@ -1,0 +1,22 @@
+// Import necessary files
+@use '../base/variables' as vars;
+@use 'sass:map';
+
+// Media queries
+@mixin respond-to($breakpoint) {
+  $size: map.get(vars.$breakpoints, $breakpoint);
+  @if $size {
+    @media (max-width: $size) {
+      @content;
+    }
+  } @else {
+    @error "Unknown breakpoint: #{$breakpoint}";
+  }
+}
+
+// Center elements
+@mixin center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
