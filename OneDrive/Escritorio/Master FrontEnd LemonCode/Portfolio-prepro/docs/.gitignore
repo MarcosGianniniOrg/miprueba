@@ -1,0 +1,20 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.dropbox_bi/
+NTUSER.*
+
+# Ignore personal and temporary folders
+/Documents/
+/Saved Games/
+/Downloads/
+/Reciente/
+/SendTo/
+/Videos/
+/Plantillas/
+
+# Ignore hidden and OneDrive-specific files
+/.*
+/OneDrive/
