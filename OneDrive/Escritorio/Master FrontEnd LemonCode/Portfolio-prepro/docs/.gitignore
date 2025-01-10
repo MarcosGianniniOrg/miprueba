@@ -1,20 +1,26 @@
-# Ignore system files
+# Ignore system and temporary files
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Ignore IDE and system config folders
 .vscode/
 .dropbox_bi/
 NTUSER.*
 
-# Ignore personal and temporary folders
-/Documents/
-/Saved Games/
-/Downloads/
-/Reciente/
-/SendTo/
-/Videos/
-/Plantillas/
+# Ignore specific personal folders (only if they interfere)
+Documents/
+Saved Games/
+Downloads/
+Reciente/
+SendTo/
+Videos/
+Plantillas/
 
-# Ignore hidden and OneDrive-specific files
-/.*
-/OneDrive/
+# Ignore OneDrive temp files but not your project
+*.tmp
+~$*
+
+# Do not ignore Git or necessary dotfiles
+!.gitignore
+!.git/
