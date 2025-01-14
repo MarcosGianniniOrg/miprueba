@@ -47,6 +47,8 @@ console.log('1' === 1); // false por qué? porque el triple igual compara el tip
 // falsy values: valores que son considerados como falso en JavaScript porque son convertidos a false cuando se evalúan en un contexto booleano
 var b = 0 || 20; // 20
 
+console.log(b); // 20 Es decir, si el primer valor es falso, se toma el segundo valor
 
-
-
+// 5. Operadores Bitwise
+// los operadores bitwise son operadores que trabajan a nivel de bits. No son relevantes en frontend, 
+// pero sí en backend porque se trabaja con datos binarios y se necesita hacer operaciones a nivel de bits
