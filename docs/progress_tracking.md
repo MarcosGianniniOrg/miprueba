@@ -48,8 +48,8 @@
 | 1.3. Control de flujo | ✅ Visto     |
 | 1.4. Objetos          | ✅ Visto     |
 | 1.5. Arrays           | ✅ Visto     |
-| 1.6. Hoisting         | 🚧 En curso  |
-| 1.7. Closure          | 🔄 Pendiente |
+| 1.6. Hoisting         | ✅ Visto     |
+| 1.7. Closure          | 🚧 En curso  |
 | 1.8. Funciones        | 🔄 Pendiente |
 
 ### Avanzado
