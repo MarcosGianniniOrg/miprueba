@@ -1,186 +1,119 @@
-## **Seguimiento de Progresos** 📊
+# Progreso del Curso y Objetivos
 
-Este documento te ayudará a mantener un control claro de tus avances, identificar áreas de mejora y organizar tus prioridades. Actualiza regularmente el estado de cada sección.
+## Objetivos
 
----
+- Terminar el máster el 3 de julio
+- Encontrar trabajo para doblar sueldo
+- Convertirme en un gran desarrollador front-end
+- Subir mi nivel de inglés actual (actualmente A1)
 
-## **Seguimiento de Progresos** 📊
+## UX (Módulo 0)
 
-Este documento te ayudará a mantener un control claro de tus avances, identificar áreas de mejora y organizar tus prioridades. Actualiza regularmente el estado de cada sección.
+| Sesión                   | Estado                             |
+| ------------------------ | ---------------------------------- |
+| 01. User Experience      | 🔄 Pendiente (al final del máster) |
+| 02. Diseño de interfaces | 🔄 Pendiente                       |
+| 03. Figma                | 🔄 Pendiente                       |
+| 04. Patrones de diseño   | 🔄 Pendiente                       |
+| 05. Laboratorio UX       | 🔄 Pendiente                       |
 
----
+## Layout (Módulo 1)
 
-### **0. Módulo UX** 🧠
-| **Número de Sesión** | **Tema**                    | **Estado**   | **Notas**                          |
-|----------------------|------------------------------|--------------|-------------------------------------|
-| Sesión 1             | User Experience             | ❌ Pendiente | Verá este tema al final del curso. |
-| Sesión 2             | Diseño de interfaces        | ❌ Pendiente |                                   |
-| Sesión 3             | Figma                      | ❌ Pendiente |                                   |
-| Sesión 4             | Patrones de diseño         | ❌ Pendiente |                                   |
-| Sesión 5             | Laboratorio UX             | ❌ Pendiente |                                   |
+| Sección                   | Estado   |
+| ------------------------- | -------- |
+| 01. Selectores            | ✅ Visto |
+| 02. Especificando valores | ✅ Visto |
+| 03. Cascada y Herencia    | ✅ Visto |
+| 04. Modelo de caja        | ✅ Visto |
+| 05. Posicionamiento       | ✅ Visto |
+| 06. Flexbox I             | ✅ Visto |
+| 07. Flexbox II            | ✅ Visto |
+| 08. Flexbox III           | ✅ Visto |
+| 09. Grid I                | ✅ Visto |
+| 10. Grid II               | ✅ Visto |
+| 11. Grid III              | ✅ Visto |
+| 12. Media Queries         | ✅ Visto |
+| 13. Sass I                | ✅ Visto |
+| 14. Sass II               | ✅ Visto |
+| 15. Sass III              | ✅ Visto |
 
----
+## Lenguaje (Módulo 2)
 
-### **1. Módulo Layout** 🎨
-| **Número de Sesión** | **Tema**                           | **Estado**   | **Notas**                          |
-|----------------------|-------------------------------------|--------------|-------------------------------------|
-| Sesión 1             | Introducción e historia           | ✅ Completado |                                   |
-| Sesión 1             | Selectores Simples                | ✅ Completado |                                   |
-| Sesión 1             | Selectores de Atributos           | ✅ Completado |                                   |
-| Sesión 1             | Pseudoclases y Pseudoelementos    | ✅ Completado |                                   |
-| Sesión 1             | Especificando valores             | ✅ Completado |                                   |
-| Sesión 1             | Usando cascada                    | ✅ Completado |                                   |
-| Sesión 1             | Especificidad                     | ✅ Completado |                                   |
-| Sesión 1             | Herencia en acción                | ✅ Completado |                                   |
-| Sesión 1             | Modelo de caja                    | ✅ Completado |                                   |
-| Sesión 1             | Propiedad display                 | ✅ Completado |                                   |
-| Sesión 1             | Position                          | ✅ Completado |                                   |
-| Sesión 2             | Z-Index                          | ✅ Completado |                                   |
-| Sesión 2             | Float: Basic Example             | ✅ Completado |                                   |
-| Sesión 2             | Float: Overflow Hidden           | ✅ Completado |                                   |
-| Sesión 2             | Float: Cleared Element           | ✅ Completado |                                   |
-| Sesión 2             | Float: After Pseudoelement       | ✅ Completado |                                   |
-| Sesión 2             | Flexbox Conceptos                | ✅ Completado |                                   |
-| Sesión 2             | Flex-direction                    | ✅ Completado |                                   |
-| Sesión 2             | Flex-wrap                        | ✅ Completado |                                   |
-| Sesión 2             | Flex-flow                        | ✅ Completado |                                   |
-| Sesión 2             | Justify-content                  | ✅ Completado |                                   |
-| Sesión 2             | Align-items                      | ✅ Completado |                                   |
-| Sesión 2             | Align-content                    | ✅ Completado |                                   |
-| Sesión 2             | Order                            | ✅ Completado |                                   |
-| Sesión 2             | Flex-grow                       | ✅ Completado |                                   |
-| Sesión 2             | Flex-shrink                     | ✅ Completado |                                   |
-| Sesión 2             | Flex-basis                      | ✅ Completado |                                   |
-| Sesión 2             | Align-self                      | ✅ Completado |                                   |
-| Sesión 3             | Introducción y conceptos        | ✅ Completado |                                   |
-| Sesión 3             | Grid-template (Columns & Rows)  | ✅ Completado |                                   |
-| Sesión 3             | Grid-column & Grid-row (Start/End)| ✅ Completado |                                   |
-| Sesión 3             | Grid-auto-flow                  | ✅ Completado |                                   |
-| Sesión 3             | Grid-auto-rows & Columns        | ✅ Completado |                                   |
-| Sesión 3             | Notación repeat                 | ✅ Completado |                                   |
-| Sesión 3             | Grid areas                      | ✅ Completado |                                   |
-| Sesión 3             | Grid gap                        | ✅ Completado |                                   |
-| Sesión 3             | Justify and align items         | ✅ Completado | Shorthand: place-items.          |
-| Sesión 3             | Justify and align content       | ✅ Completado | Shorthand: place-content.        |
-| Sesión 4             | Diseño responsivo               | ✅ Completado |                                   |
-| Sesión 4             | Introducción a Media Queries    | ✅ Completado |                                   |
-| Sesión 4             | Herramientas de desarrolladores | ✅ Completado |                                   |
-| Sesión 4             | CSS Custom Properties           | ✅ Completado |                                   |
-| Sesión 4             | SASS: Introducción              | ✅ Completado |                                   |
-| Sesión 4             | Instalación (Parcel)            | ✅ Completado |                                   |
-| Sesión 4             | Reglas anidadas                 | ✅ Completado |                                   |
-| Sesión 4             | Referencia al padre             | ✅ Completado |                                   |
-| Sesión 4             | Propiedades anidadas            | ✅ Completado |                                   |
-| Sesión 4             | Variables en SASS               | ✅ Completado |                                   |
-| Sesión 4             | Imports y Archivos Parciales    | ✅ Completado |                                   |
-| Sesión 4             | Operaciones y Funciones de Color| ✅ Completado |                                   |
-| Sesión 4             | Interpolación de Strings        | ✅ Completado |                                   |
-| Sesión 5             | Sass: @extend, @mixin, @function| ✅ Completado |                                   |
-| Sesión 5             | Directivas de control (Bucles)  | ✅ Completado |                                   |
-| Sesión 5             | Introducción al laboratorio     | ✅ Completado |                                   |
+### Fundamentos
 
----
+| Sección               | Estado       |
+| --------------------- | ------------ |
+| 1.1. Tipos de datos   | ✅ Visto     |
+| 1.2. Operadores       | ✅ Visto     |
+| 1.3. Control de flujo | ✅ Visto     |
+| 1.4. Objetos          | ✅ Visto     |
+| 1.5. Arrays           | ✅ Visto     |
+| 1.6. Hoisting         | 🚧 En curso  |
+| 1.7. Closure          | 🔄 Pendiente |
+| 1.8. Funciones        | 🔄 Pendiente |
 
-### **2. Módulo Lenguaje** 💻
-| **Número de Sesión** | **Tema**                          | **Estado**   | **Notas**                          |
-|----------------------|------------------------------------|--------------|-------------------------------------|
-| Sesión 1             | Introducción teórica JS           | ✅ Completado |                                   |
-| Sesión 1             | Tipos de datos y operadores       | ✅ Completado |                                   |
-| Sesión 2             | Bucles y operador Comma           | ✅ Completado |                                   |
-| Sesión 2             | Objetos y Arrays                  | ❌ Pendiente |                                   |
-| Sesión 2             | Funciones                         | ❌ Pendiente |                                   |
-| Sesión 3             | Funciones avanzadas               | ❌ Pendiente |                                   |
-| Sesión 3             | Optional Chaining                 | ❌ Pendiente |                                   |
-| Sesión 3             | Nullish Coalescing                | ❌ Pendiente |                                   |
-| Sesión 3             | Destructuring                    | ❌ Pendiente |                                   |
-| Sesión 4             | Operadores Rest/Spread            | ❌ Pendiente |                                   |
-| Sesión 4             | Default Arguments                 | ❌ Pendiente |                                   |
-| Sesión 4             | Clases en JavaScript              | ❌ Pendiente |                                   |
-| Sesión 5             | Clases en profundidad             | ❌ Pendiente  |                                   |
-| Sesión 5             | Notación JSON                     | ❌ Pendiente  |                                   |
-| Sesión 5             | Manejo de errores                 | ❌ Pendiente  |                                   |
-| Sesión 5             | Módulos ES (ESModules)            | ❌ Pendiente  |                                   |
-| Sesión 5             | Introducción a TypeScript         | ❌ Pendiente  | Tipos básicos                    |
-| Sesión 6             | Tipos básicos en TypeScript       | ❌ Pendiente  |                                   |
-| Sesión 6             | Interfaces y funciones            | ❌ Pendiente  |                                   |
-| Sesión 6             | Genéricos en TypeScript           | ❌ Pendiente  |                                   |
-| Sesión 7             | Genéricos avanzados               | ❌ Pendiente  |                                   |
-| Sesión 7             | Tipos avanzados                   | ❌ Pendiente  |                                   |
-| Sesión 7             | Union & Intersection              | ❌ Pendiente  |                                   |
-| Sesión 7             | Guards                            | ❌ Pendiente  |                                   |
-| Sesión 7             | Literales String & Numeric        | ❌ Pendiente  |                                   |
-| Sesión 7             | Template Literals                 | ❌ Pendiente  |                                   |
-| Sesión 7             | Keyof y Mapped Types              | ❌ Pendiente  |                                   |
-| Sesión 7             | Conditional Types                 | ❌ Pendiente  |                                   |
-| Sesión 7             | Enunciado de Laboratorio          | ❌ Pendiente  |                                   |
-| Sesión 8             | Asincronicidad - Callbacks        | ❌ Pendiente  |                                   |
-| Sesión 8             | Promesas                          | ❌ Pendiente  |                                   |
-| Sesión 8             | Async/Await                      | ❌ Pendiente  |                                   |
-| Sesión 8             | ES6 Features - Map               | ❌ Pendiente  |                                   |
+### Avanzado
 
----
+| Sección                     | Estado       |
+| --------------------------- | ------------ |
+| 2.1. Let Const              | 🔄 Pendiente |
+| 2.2. Arrow Functions        | 🔄 Pendiente |
+| 2.3. Destructuring          | 🔄 Pendiente |
+| 2.4. Spread / Rest operator | 🔄 Pendiente |
+| 2.5. Default Arguments      | 🔄 Pendiente |
+| 2.6. Template Literals      | 🔄 Pendiente |
+| 2.7. Promises               | 🔄 Pendiente |
 
-### **3. Módulo Bundling** 📦
-| **Número de Sesión** | **Tema**                          | **Estado**   | **Notas**                          |
-|----------------------|------------------------------------|--------------|-------------------------------------|
-| Sesión 1             | Introducción a Bundling           | ❌ Pendiente |                                   |
-| Sesión 1             | ¿Qué es un Bundler?              | ❌ Pendiente |                                   |
-| Sesión 1             | Scripts de npm                   | ❌ Pendiente |                                   |
-| Sesión 1             | Zero config                      | ❌ Pendiente |                                   |
-| Sesión 1             | Hello webpack.config             | ❌ Pendiente |                                   |
-| Sesión 1             | Transpilar ES6 con Babel         | ❌ Pendiente |                                   |
-| Sesión 1             | Manejar imports                  | ❌ Pendiente |                                   |
-| Sesión 1             | Levantar servidor de desarrollo  | ❌ Pendiente | (webpack-dev-server)              |
-| Sesión 1             | Generar build automático         | ❌ Pendiente | (HTMLWebpackPlugin)               |
-| Sesión 1             | Gestionar CSS                    | ❌ Pendiente |                                   |
-| Sesión 2             | Twitter Bootstrap                | ❌ Pendiente |                                   |
-| Sesión 2             | Sass                             | ❌ Pendiente |                                   |
-| Sesión 2             | Refactor                         | ❌ Pendiente |                                   |
-| Sesión 2             | Manejo de imágenes               | ❌ Pendiente |                                   |
-| Sesión 2             | Integración con React            | ❌ Pendiente |                                   |
-| Sesión 2             | CSS Modules                      | ❌ Pendiente |                                   |
-| Sesión 2             | Configuración de entornos        | ❌ Pendiente |                                   |
-| Sesión 2             | Bundle Analyzer                  | ❌ Pendiente |                                   |
-| Sesión 2             | Gestionar CSS avanzado           | ❌ Pendiente |                                   |
+### TypeScript
 
----
+| Sección                    | Estado       |
+| -------------------------- | ------------ |
+| 3.1. Type Annotations      | 🔄 Pendiente |
+| 3.2. Tipando Interfaces    | 🔄 Pendiente |
+| 3.3. Tipando funciones     | 🔄 Pendiente |
+| 3.4. Tipando con genéricos | 🔄 Pendiente |
 
-### **Master Classes (Contenido Adicional)** 🎓
+## Bundling (Módulo 3)
 
-En esta sección se encuentran las diferentes master classes impartidas durante el máster. Estas clases amplían los contenidos vistos en los módulos principales.
+| Sección                        | Estado       |
+| ------------------------------ | ------------ |
+| 1.1. Por qué bundling          | 🔄 Pendiente |
+| 1.2. ¿Qué es un CLI?           | 🔄 Pendiente |
+| 1.3. Webpack conceptos         | 🔄 Pendiente |
+| 2.1. Demo Zero Config          | 🔄 Pendiente |
+| 2.2. Demo Boiler plate         | 🔄 Pendiente |
+| 2.3. Import                    | 🔄 Pendiente |
+| 2.4. webpack-dev-server        | 🔄 Pendiente |
+| 2.5. Output - html             | 🔄 Pendiente |
+| 3.1. CSS                       | 🔄 Pendiente |
+| 3.1B. Limpiar carpeta dist     | 🔄 Pendiente |
+| 3.1C. MiniCssExtractPlugin     | 🔄 Pendiente |
+| 3.2. Twitter Bootstrap         | 🔄 Pendiente |
+| 3.3. SASS                      | 🔄 Pendiente |
+| 3.4. Refactor src              | 🔄 Pendiente |
+| 3.5. Imágenes                  | 🔄 Pendiente |
+| 3.6. React                     | 🔄 Pendiente |
+| 3.7. CSS Modules               | 🔄 Pendiente |
+| 3.8. TypeScript                | 🔄 Pendiente |
+| 4.1. Múltiples configuraciones | 🔄 Pendiente |
+| 4.2. Variables de entorno      | 🔄 Pendiente |
+| 4.3. Bundle Analyzer           | 🔄 Pendiente |
 
-- **De Figma a CSS**
-- **Animaciones CSS**
-- **Tailwind**
+## Master Classes
 
----
+| Sesión          | Estado       |
+| --------------- | ------------ |
+| De Figma a CSS  | 🔄 Pendiente |
+| Animaciones CSS | 🔄 Pendiente |
+| Tailwind        | 🔄 Pendiente |
 
-### **Seguimiento de Entregas del Máster** 📄
+## Entregables
 
-En esta sección se detallan las entregas necesarias para aprobar el máster, incluyendo su estado actual, fechas clave y notas (si ya han sido evaluadas).
-
-| **Trabajo**                                  | **Módulo**   | **Fecha de Entrega** | **Estado**     | **Nota**          | **Observaciones**                          |
-|---------------------------------------------|--------------|-----------------------|----------------|-------------------|--------------------------------------------|
-| UX Laboratorio                              | UX           | -                     | ❌ No entregado | -                 | Recomendaron hacerlo al final del máster. |
-| Layout - Laboratorio Básico                 | Layout       | 19/11/2024           | ✅ Entregado    | Sobresaliente     | Excelente resultado.                      |
-| Layout - Laboratorio Avanzado               | Layout       | 19/11/2024           | ✅ Entregado    | Notable           | Buen resultado, pero revisa feedback.     |
-| Layout - Laboratorio EXTRA                  | Layout       | 21/11/2024           | ✅ Entregado    | Apto              | Podría mejorar la documentación técnica.  |
-| Lenguaje - Laboratorio                      | Lenguaje     | -                     | ❌ No entregado | -                 | Planificar entrega antes del 31/12/2024. |
-
----
-
-### **Planificación para Trabajos Faltantes**
-
-1. **UX Laboratorio:**
-   - Fecha de entrega recomendada: **final de máster (junio/julio 2025)**.
-   - Planificación: Completar las sesiones de UX y repasar conceptos clave antes de comenzar.
-
-2. **Lenguaje - Laboratorio:**
-   - Fecha límite: **31/01/2025**.
-
----
-
-### **Notas Importantes** 📌
-- **Revisión Continua:** Mantén esta sección actualizada para evaluar avances y ajustar prioridades.
-
----
+| Entrega                                  | Estado       | Fecha de entrega | Nota          |
+| ---------------------------------------- | ------------ | ---------------- | ------------- |
+| Módulo 0 - UX Laboratorio                | No entregado |                  |               |
+| Módulo 1 - Layout - Laboratorio Avanzado | Entregado    | 19/11/2024       | Notable       |
+| Módulo 1 - Layout - Laboratorio Básico   | Entregado    | 19/11/2024       | Sobresaliente |
+| Módulo 1 - Layout - Laboratorio EXTRA    | Entregado    | 21/11/2024       | Apto          |
+| Módulo 2 - Lenguaje Laboratorio          | No entregado |                  |               |
+| Módulo 3 - Bundling Laboratorio          | No entregado |                  |               |
