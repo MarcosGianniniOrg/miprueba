@@ -49,26 +49,26 @@
 | 1.4. Objetos          | ✅ Visto     |
 | 1.5. Arrays           | ✅ Visto     |
 | 1.6. Hoisting         | ✅ Visto     |
-| 1.7. Closure          | 🚧 En curso  |
-| 1.8. Funciones        | 🔄 Pendiente |
+| 1.7. Closure          | ✅ Visto  |
+| 1.8. Funciones        | ✅ Visto |
 
 ### Avanzado
 
 | Sección                     | Estado       |
 | --------------------------- | ------------ |
-| 2.1. Let Const              | 🔄 Pendiente |
-| 2.2. Arrow Functions        | 🔄 Pendiente |
-| 2.3. Destructuring          | 🔄 Pendiente |
-| 2.4. Spread / Rest operator | 🔄 Pendiente |
-| 2.5. Default Arguments      | 🔄 Pendiente |
-| 2.6. Template Literals      | 🔄 Pendiente |
-| 2.7. Promises               | 🔄 Pendiente |
+| 2.1. Let Const              | ✅ Visto |
+| 2.2. Arrow Functions        | ✅ Visto |
+| 2.3. Destructuring          | ✅ Visto |
+| 2.4. Spread / Rest operator | ✅ Visto |
+| 2.5. Default Arguments      | ✅ Visto |
+| 2.6. Template Literals      | ✅ Visto |
+| 2.7. Promises               | ✅ Visto |
 
 ### TypeScript
 
 | Sección                    | Estado       |
 | -------------------------- | ------------ |
-| 3.1. Type Annotations      | 🔄 Pendiente |
+| 3.1. Type Annotations      | 🚧 En curso |
 | 3.2. Tipando Interfaces    | 🔄 Pendiente |
 | 3.3. Tipando funciones     | 🔄 Pendiente |
 | 3.4. Tipando con genéricos | 🔄 Pendiente |
