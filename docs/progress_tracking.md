@@ -68,16 +68,16 @@
 
 | Sección                    | Estado       |
 | -------------------------- | ------------ |
-| 3.1. Type Annotations      | 🚧 En curso |
-| 3.2. Tipando Interfaces    | 🔄 Pendiente |
-| 3.3. Tipando funciones     | 🔄 Pendiente |
-| 3.4. Tipando con genéricos | 🔄 Pendiente |
+| 3.1. Type Annotations      | ✅ Visto  |
+| 3.2. Tipando Interfaces    | ✅ Visto  |
+| 3.3. Tipando funciones     | ✅ Visto  |
+| 3.4. Tipando con genéricos | ✅ Visto  |
 
 ## Bundling (Módulo 3)
 
 | Sección                        | Estado       |
 | ------------------------------ | ------------ |
-| 1.1. Por qué bundling          | 🔄 Pendiente |
+| 1.1. Por qué bundling          | 🚧 En curso |
 | 1.2. ¿Qué es un CLI?           | 🔄 Pendiente |
 | 1.3. Webpack conceptos         | 🔄 Pendiente |
 | 2.1. Demo Zero Config          | 🔄 Pendiente |
