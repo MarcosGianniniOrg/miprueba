@@ -32,8 +32,8 @@ Proporcionar una visión clara y estructurada del plan del máster, ayudándote 
 | **Lenguaje**   | JavaScript/TypeScript CORE           | 3         | jueves, 14 de Noviembre de 2024        | ✅         | ✅            |
 |                | JavaScript/TypeScript CORE           | 3         | viernes, 15 de Noviembre de 2024       | ✅         | ✅            |
 | **Layout**     | Tailwind CSS                         | 3         | miércoles, 20 de Noviembre de 2024     | ✅         | ✅            |
-| **Lenguaje**   | JavaScript/TypeScript CORE           | 3         | jueves, 21 de Noviembre de 2024        | ✅         | 🔄            |
-|                | JavaScript/TypeScript CORE           | 3         | viernes, 22 de Noviembre de 2024       | ✅         | ❌            |
+| **Lenguaje**   | JavaScript/TypeScript CORE           | 3         | jueves, 21 de Noviembre de 2024        | ✅         | ✅            |
+|                | JavaScript/TypeScript CORE           | 3         | viernes, 22 de Noviembre de 2024       | ✅         | 🔄            |
 |                | Clase extra de JavaScript/TypeScript | 3         | miércoles, 27 de Noviembre de 2024     | ✅         | ❌            |
 |                | JavaScript/TypeScript ADVANCED       | 3         | jueves, 28 de Noviembre de 2024        | ✅         | ❌            |
 | **Bundling**   | Conceptos + Webpack (I)              | 3         | viernes, 29 de Noviembre de 2024       | ✅         | ❌            |
