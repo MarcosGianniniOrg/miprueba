@@ -77,11 +77,11 @@
 
 | Sección                        | Estado       |
 | ------------------------------ | ------------ |
-| 1.1. Por qué bundling          | ✅ Visto  |
-| 1.2. ¿Qué es un CLI?           | 🚧 En curso|
-| 1.3. Webpack conceptos         | 🔄 Pendiente |
-| 2.1. Demo Zero Config          | 🔄 Pendiente |
-| 2.2. Demo Boiler plate         | 🔄 Pendiente |
+| 1.1. Por qué bundling          | ✅ Visto |
+| 1.2. ¿Qué es un CLI?           | ✅ Visto |
+| 1.3. Webpack conceptos         | ✅ Visto |
+| 2.1. Demo Zero Config          | ✅ Visto |
+| 2.2. Demo Boiler plate         | 🚧 En curso |
 | 2.3. Import                    | 🔄 Pendiente |
 | 2.4. webpack-dev-server        | 🔄 Pendiente |
 | 2.5. Output - html             | 🔄 Pendiente |
