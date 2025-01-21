@@ -77,8 +77,8 @@
 
 | Sección                        | Estado       |
 | ------------------------------ | ------------ |
-| 1.1. Por qué bundling          | 🚧 En curso |
-| 1.2. ¿Qué es un CLI?           | 🔄 Pendiente |
+| 1.1. Por qué bundling          | ✅ Visto  |
+| 1.2. ¿Qué es un CLI?           | 🚧 En curso|
 | 1.3. Webpack conceptos         | 🔄 Pendiente |
 | 2.1. Demo Zero Config          | 🔄 Pendiente |
 | 2.2. Demo Boiler plate         | 🔄 Pendiente |
@@ -115,5 +115,5 @@
 | Módulo 1 - Layout - Laboratorio Avanzado | Entregado    | 19/11/2024       | Notable       |
 | Módulo 1 - Layout - Laboratorio Básico   | Entregado    | 19/11/2024       | Sobresaliente |
 | Módulo 1 - Layout - Laboratorio EXTRA    | Entregado    | 21/11/2024       | Apto          |
-| Módulo 2 - Lenguaje Laboratorio          | No entregado |                  |               |
+| Módulo 2 - Lenguaje Laboratorio          | Entregado    | 20/01/2025       |               |
 | Módulo 3 - Bundling Laboratorio          | No entregado |                  |               |
