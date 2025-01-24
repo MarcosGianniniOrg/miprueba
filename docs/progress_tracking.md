@@ -81,9 +81,9 @@
 | 1.2. ¿Qué es un CLI?           | ✅ Visto |
 | 1.3. Webpack conceptos         | ✅ Visto |
 | 2.1. Demo Zero Config          | ✅ Visto |
-| 2.2. Demo Boiler plate         | 🚧 En curso |
-| 2.3. Import                    | 🔄 Pendiente |
-| 2.4. webpack-dev-server        | 🔄 Pendiente |
+| 2.2. Demo Boiler plate         | ✅ Visto |
+| 2.3. Import                    | ✅ Visto |
+| 2.4. webpack-dev-server        | 🚧 En curso |
 | 2.5. Output - html             | 🔄 Pendiente |
 | 3.1. CSS                       | 🔄 Pendiente |
 | 3.1B. Limpiar carpeta dist     | 🔄 Pendiente |

@@ -49,6 +49,8 @@
 // - file-loader: para cargar archivos estáticos, como imágenes y fuentes.
 // - url-loader: para cargar archivos pequeños como Data URLs.
 // - style-loader: para inyectar estilos CSS en el DOM de una página web.
+// Los loaders son como "tubos" que procesan los archivos de código fuente y los transforman 
+// en módulos que Webpack puede utilizar para generar bundles.
 
 // ¿Qué es un plugin en Webpack?
 //
