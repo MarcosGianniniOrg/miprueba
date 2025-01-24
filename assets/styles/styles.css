@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* Variables no se pueden usar en CSS puro, así que se reemplazan directamente */
+.button {
+  background-color: #3498db;
+}
+
+.button:hover {
+  background-color: darkblue;
+}
+
+/* Estilos de la navegación */
+.nav {
+  background-color: lightblue;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+/* Propiedades de la caja */
+.box {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+/* Operaciones matemáticas no se pueden hacer en CSS puro, así que se reemplazan los valores */
+.container {
+  width: 32px; /* Calculado como 16px * 2 */
+  padding: 5px; /* Calculado como 10px / 2 */
+}/*# sourceMappingURL=styles.css.map */ white;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+  padding: 10px;
+  background-color: white;
+}
+
+.col-12 {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}/*# sourceMappingURL=styles.css.map */

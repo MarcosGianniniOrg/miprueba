@@ -1,0 +1,22 @@
+body {
+  background-color: #2c82cf;
+  color: #ca3737;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */

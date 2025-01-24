@@ -41,21 +41,21 @@
 
 ### Fundamentos
 
-| Sección               | Estado       |
-| --------------------- | ------------ |
-| 1.1. Tipos de datos   | ✅ Visto     |
-| 1.2. Operadores       | ✅ Visto     |
-| 1.3. Control de flujo | ✅ Visto     |
-| 1.4. Objetos          | ✅ Visto     |
-| 1.5. Arrays           | ✅ Visto     |
-| 1.6. Hoisting         | ✅ Visto     |
-| 1.7. Closure          | ✅ Visto  |
+| Sección               | Estado   |
+| --------------------- | -------- |
+| 1.1. Tipos de datos   | ✅ Visto |
+| 1.2. Operadores       | ✅ Visto |
+| 1.3. Control de flujo | ✅ Visto |
+| 1.4. Objetos          | ✅ Visto |
+| 1.5. Arrays           | ✅ Visto |
+| 1.6. Hoisting         | ✅ Visto |
+| 1.7. Closure          | ✅ Visto |
 | 1.8. Funciones        | ✅ Visto |
 
 ### Avanzado
 
-| Sección                     | Estado       |
-| --------------------------- | ------------ |
+| Sección                     | Estado   |
+| --------------------------- | -------- |
 | 2.1. Let Const              | ✅ Visto |
 | 2.2. Arrow Functions        | ✅ Visto |
 | 2.3. Destructuring          | ✅ Visto |
@@ -66,12 +66,12 @@
 
 ### TypeScript
 
-| Sección                    | Estado       |
-| -------------------------- | ------------ |
-| 3.1. Type Annotations      | ✅ Visto  |
-| 3.2. Tipando Interfaces    | ✅ Visto  |
-| 3.3. Tipando funciones     | ✅ Visto  |
-| 3.4. Tipando con genéricos | ✅ Visto  |
+| Sección                    | Estado   |
+| -------------------------- | -------- |
+| 3.1. Type Annotations      | ✅ Visto |
+| 3.2. Tipando Interfaces    | ✅ Visto |
+| 3.3. Tipando funciones     | ✅ Visto |
+| 3.4. Tipando con genéricos | ✅ Visto |
 
 ## Bundling (Módulo 3)
 
@@ -81,9 +81,9 @@
 | 1.2. ¿Qué es un CLI?           | ✅ Visto |
 | 1.3. Webpack conceptos         | ✅ Visto |
 | 2.1. Demo Zero Config          | ✅ Visto |
-| 2.2. Demo Boiler plate         | ✅ Visto |
-| 2.3. Import                    | ✅ Visto |
-| 2.4. webpack-dev-server        | 🚧 En curso |
+| 2.2. Demo Boiler plate         | 🚧 En curso |
+| 2.3. Import                    | 🔄 Pendiente |
+| 2.4. webpack-dev-server        | 🔄 Pendiente |
 | 2.5. Output - html             | 🔄 Pendiente |
 | 3.1. CSS                       | 🔄 Pendiente |
 | 3.1B. Limpiar carpeta dist     | 🔄 Pendiente |
@@ -115,5 +115,5 @@
 | Módulo 1 - Layout - Laboratorio Avanzado | Entregado    | 19/11/2024       | Notable       |
 | Módulo 1 - Layout - Laboratorio Básico   | Entregado    | 19/11/2024       | Sobresaliente |
 | Módulo 1 - Layout - Laboratorio EXTRA    | Entregado    | 21/11/2024       | Apto          |
-| Módulo 2 - Lenguaje Laboratorio          | Entregado    | 20/01/2025       |               |
+| Módulo 2 - Lenguaje Laboratorio          | Entregado    | 20/01/2025       | Sobresaliente |
 | Módulo 3 - Bundling Laboratorio          | No entregado |                  |               |
