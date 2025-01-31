@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../Age_Calculator"
+		},
+		{
+			"path": "../../MarcosGiannini.github.io"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Product_Tracker"
+		},
+		{
+			"path": "../../webpack"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "webpack"
+	}
+}
