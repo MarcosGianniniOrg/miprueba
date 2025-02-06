@@ -84,20 +84,32 @@
 | 2.2. Demo Boiler plate         | ✅ Visto |
 | 2.3. Import                    | ✅ Visto |
 | 2.4. webpack-dev-server        | ✅ Visto |
-| 2.5. Output - html             | 🚧 En curso|
-| 3.1. CSS                       | 🔄 Pendiente |
-| 3.1B. Limpiar carpeta dist     | 🔄 Pendiente |
-| 3.1C. MiniCssExtractPlugin     | 🔄 Pendiente |
-| 3.2. Twitter Bootstrap         | 🔄 Pendiente |
-| 3.3. SASS                      | 🔄 Pendiente |
-| 3.4. Refactor src              | 🔄 Pendiente |
-| 3.5. Imágenes                  | 🔄 Pendiente |
-| 3.6. React                     | 🔄 Pendiente |
-| 3.7. CSS Modules               | 🔄 Pendiente |
-| 3.8. TypeScript                | 🔄 Pendiente |
+| 2.5. Output - html             | ✅ Visto|
+| 3.1. CSS                       | ✅ Visto |
+| 3.1B. Limpiar carpeta dist     | ✅ Visto |
+| 3.1C. MiniCssExtractPlugin     | ✅ Visto |
+| 3.2. Twitter Bootstrap         | ✅ Visto |
+| 3.3. SASS                      | ✅ Visto |
+| 3.4. Refactor src              | ✅ Visto |
+| 3.5. Imágenes                  | ✅ Visto |
+| 3.6. React                     | ✅ Visto |
+| 3.7. CSS Modules               | ✅ Visto |
+| 3.8. TypeScript                | 🚧 En curso |
 | 4.1. Múltiples configuraciones | 🔄 Pendiente |
 | 4.2. Variables de entorno      | 🔄 Pendiente |
 | 4.3. Bundle Analyzer           | 🔄 Pendiente |
+
+## React (Módulo 4)
+
+| Sesión                                 | Estado       |
+| -------------------------------------- | ------------ |
+| 01 - Base                              | 🔄 Pendiente |
+| 02 - React                             | 🔄 Pendiente |
+| 03 - Hooks                             | 🔄 Pendiente |
+| 04 - Aplicaciones SPA                  | 🔄 Pendiente |
+| 05 - Aplicaciones React                | 🔄 Pendiente |
+| 06 - Arquitectura React                | 🔄 Pendiente |
+| 07 - Arquitectura React - PODS.pptx      | 🔄 Pendiente |
 
 ## Master Classes
 
