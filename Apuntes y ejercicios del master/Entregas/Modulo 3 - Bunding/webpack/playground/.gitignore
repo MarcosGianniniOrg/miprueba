@@ -1,0 +1,13 @@
+# Carpetas que no quiero subir a Git
+
+# Ignorar dependencias (se instalan con npm install)
+node_modules
+
+# Ignorar archivos generados por Webpack (se crean en cada build)
+dist
+
+# Ignorar archivos de configuración de editores y del sistema
+.DS_Store  # MacOS
+Thumbs.db  # Windows
+.vscode    # Configs de VS Code
+.idea      # Configs de WebStorm u otros editores

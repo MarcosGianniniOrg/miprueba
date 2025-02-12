@@ -94,16 +94,16 @@
 | 3.5. Imágenes                  | ✅ Visto |
 | 3.6. React                     | ✅ Visto |
 | 3.7. CSS Modules               | ✅ Visto |
-| 3.8. TypeScript                | 🚧 En curso |
-| 4.1. Múltiples configuraciones | 🔄 Pendiente |
-| 4.2. Variables de entorno      | 🔄 Pendiente |
-| 4.3. Bundle Analyzer           | 🔄 Pendiente |
+| 3.8. TypeScript                | ✅ Visto |
+| 4.1. Múltiples configuraciones | ✅ Visto |
+| 4.2. Variables de entorno      | ✅ Visto |
+| 4.3. Bundle Analyzer           | ✅ Visto |
 
 ## React (Módulo 4)
 
 | Sesión                                 | Estado       |
 | -------------------------------------- | ------------ |
-| 01 - Base                              | 🔄 Pendiente |
+| 01 - Base                              | 🚧 En curso |
 | 02 - React                             | 🔄 Pendiente |
 | 03 - Hooks                             | 🔄 Pendiente |
 | 04 - Aplicaciones SPA                  | 🔄 Pendiente |

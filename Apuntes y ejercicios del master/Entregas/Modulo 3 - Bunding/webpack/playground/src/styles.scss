@@ -1,0 +1,22 @@
+body { 
+  background-color: #f4f4f4; // Fondo gris claro
+  font-family: Arial, sans-serif; // Fuente básica
+  text-align: center; // Todo centrado
+  padding: 20px;
+  margin: 0; // Evito margen por defecto
+}
+
+#logo { // Estilos para el logo
+  display: block;
+  margin: 20px auto; // Lo centro horizontalmente
+  width: 100px; // Tamaño del logo
+  height: auto; // Mantiene la proporción
+}
+
+h1 {
+  font-size: 1rem; // Tamaño del texto
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #000; // Texto en negro
+}

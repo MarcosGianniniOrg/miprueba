@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // Dónde se guardan los archivos compilados
+    "module": "ESNext", // Usa la versión más nueva de los módulos
+    "target": "ES6", // Convierte el código a ES6 para compatibilidad
+    "strict": true, // Activa el modo estricto de TypeScript
+    "moduleResolution": "node", // Configura cómo se resuelven los imports
+    "esModuleInterop": true, // Facilita importar librerías que usan módulos distintos
+    "skipLibCheck": true, // Evita revisar tipos en archivos de librerías externas
+    "forceConsistentCasingInFileNames": true, // Evita errores por nombres de archivos con mayúsculas/minúsculas
+    "jsx": "react-jsx" // Permite usar JSX en React sin importar React en cada archivo
+  },
+  "include": ["src"] // Solo compila archivos dentro de la carpeta src
+}

@@ -1,0 +1,21 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.main-title {
+  font-size: 1.5rem; /* Ajustamos el tamaño */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.rocket {
+  display: inline-block;
+  width: 30px; /* Ajusta el tamaño del emoji */
+  height: auto;
+  margin-top: 10px;
+}
