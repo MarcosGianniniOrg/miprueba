@@ -1,14 +1,18 @@
 {
-    "include": [
-        "./src/**/*"
-    ],
-    "compilerOptions": {
-        "strict": true,
-        "esModuleInterop": true,
-        "lib": [
-            "dom",
-            "es2015"
-        ],
-        "jsx": "react-jsx"
-    }
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "noLib": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
