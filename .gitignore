@@ -1,0 +1,39 @@
+
+# Node.js
+node_modules/
+
+# Parcel Cache
+.parcel-cache/
+
+# Distribución
+dist/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Otros
+*.bak
+*.tmp
+
+# Excluir npm files
+package.json
+package-lock.json
+
+# Permitir archivos importantes en la raíz
+!*.md
+
+# Incluir carpetas del proyecto
+!Entregas/
+!Entregas/**
+!Apuntes/
+!Apuntes/**
+
+# Excluir otros archivos innecesarios
+.env
+.vscode/
+.idea/
+*.swp
